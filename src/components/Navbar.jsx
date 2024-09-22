@@ -57,7 +57,7 @@ function Navbar() {
     ]
 
   return (
-    <div className='w-[20%] h-[100vh] bg-[#363740]'>
+    <div className='w-[20%] h-[180vh] bg-[#363740]'>
         <div className='pt-[37px] pl-[32px] pb-[59px]'>
            <Link className='flex items-center space-x-3' to={'/'}>
             <img src={SiteLogo} alt="Site Logo" width={32} height={32}/>

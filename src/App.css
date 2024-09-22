@@ -39,3 +39,260 @@
     bottom: 0;
     left: 0;
 }
+
+.search-line {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-top: 7px;
+    margin-right: 33px;
+    margin-left: 33px;
+    border: 1px solid rgb(223, 224, 235);
+    display: flex;
+    align-items: center;
+}
+/* Four */
+.four-card {
+    margin-top: 58px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-card {
+    padding: 25px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 224, 235);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    flex: 1 1 200px;
+    width: 250px;
+    height: 134px; /* Set a consistent height */
+    display: flex;
+    flex-direction: column; /* Align title and number vertically */
+    justify-content: center; /* Center content vertically */
+    transition: 0.2s;
+}
+
+.first-card:hover {
+    box-sizing: border-box;
+    border: 2px solid rgb(55, 81, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Apply hover effect to child elements when hovering over .first-card */
+.first-card:hover .first-card-number, 
+.first-card:hover .first-card-title {
+    color: #3751FF; /* Change both number and title color on hover */
+}
+
+.first-card-title {
+    margin-bottom: 5px;
+    color: rgb(159, 162, 180);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.4px;
+}
+
+.first-card-number {
+    color: rgb(37, 39, 51);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+/* Trends */
+.trends {
+    width: 1130px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 224, 235);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.trends-date {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trends-date-time {
+    margin: 32px;
+    display: inline-block;
+}
+.trends-date-title {
+    color: rgb(37, 39, 51);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0.4px;
+}
+.trends-date-text {
+    margin-top: 9px;
+    color: rgb(159, 162, 180);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+.trends-date-days {
+    margin: 64px 0 0 0;
+    display: flex;
+    vertical-align: middle;
+}
+.trends-date-color-1 {
+    width: 16px;
+    height: 0;
+    margin-right: 8px;
+    margin-top: 9px;
+    border: 2px solid rgb(55, 81, 255);
+}
+.trends-date-day {
+    margin-right: 32px;
+    color: rgb(159, 162, 180);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: -1px;
+    letter-spacing: 0.1px;
+}
+.trends-date-color-2 {
+    width: 16px;
+    height: 0;
+    margin-right: 8px;
+    margin-top: 9px;
+    border: 2px solid rgb(223, 224, 235);
+}
+
+.trends-number {
+    width: 342px;
+    text-align: center;
+    border: 1px solid rgb(223, 224, 235);
+}
+.trends-number-1 {
+    margin: 32px;
+        
+}
+.trends-number-1-title {
+    color: rgb(159, 162, 180);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+.trends-number-1-quantity {
+    margin-top: 6px;
+    color: rgb(37, 39, 51);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0.3px;
+}
+
+.trends-line {
+    border: 1px solid rgb(223, 224, 235);
+}
+
+/* Tickets and Tasks */
+.double-card {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.tickets {
+    position: relative;
+    width: 546px;
+    padding-bottom: 18px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 224, 235);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.tickets-title {
+    margin: 32px 0 0 32px;
+    color: rgb(37, 39, 51);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0.4px;
+}
+
+.color-tickets {
+    color: rgb(75, 80, 109);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+.tickets-subtitle {
+    margin: 0 0 0 32px;
+    color: rgb(159, 162, 180);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+.view {
+    position: absolute;
+    right: 32px;
+    top: 36px;
+    color: rgb(55, 81, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.request {
+    border-bottom: 1px solid rgb(223, 224, 235);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pending {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pending-text {
+    margin: 19px 19px 0 32px;
+    color: rgb(37, 39, 51);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.pending-number {
+    margin:19px 32px 0 0;
+    color: rgb(159, 162, 180);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.request-text {
+    margin: 19px 0 19px 32px;
+    color: rgb(37, 39, 51);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.request-number {
+    margin:19px 32px 19px 0;
+    color: rgb(159, 162, 180);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
