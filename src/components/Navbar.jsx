@@ -22,7 +22,7 @@ function Navbar() {
             id:3,
             icon:<IdeasIcon/>,
             title:"Ideas",
-            path:"/dieas"
+            path:"/ideas"
         },
         {
             id:4,

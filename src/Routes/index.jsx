@@ -1,10 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import {Overview,Agents,Articles,Contacts,Ideas,Settings,Subscription,Tickets,NotFoundPage} from "../pages"
+import Header from '../components/Header'
 
 function Routers() {
   return (
-   <div className='w-[80%]'>
+   <div className='w-[80%] p-[30px]'>
+    <Header/>
     <Routes>
       <Route path='/' element={<Overview/>}/>
       <Route path='/tickets' element={<Tickets/>}/>
